@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ShoppingFragment"
+    android:background="#EE200422">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_layout">
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cart"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#FDEFEAC8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#EE200422">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cof"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="Cappuccino"
+                android:textColor="#FDEFEAC8"
+                android:textSize="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="Dizzling and choclate"
+                android:textColor="#FDEFEAC8"
+                android:textSize="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="35dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price:299"
+                android:textColor="#FDEFEAC8"
+                android:textSize="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="60dp"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#EE200422">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cof"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="Cappuccino"
+                android:textColor="#FDEFEAC8"
+                android:textSize="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="Dizzling and choclate"
+                android:textColor="#FDEFEAC8"
+                android:textSize="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="35dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price:299"
+                android:textColor="#FDEFEAC8"
+                android:textSize="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="60dp"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="320dp"
+        android:background="#EE200422">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:background="#FA281239">
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:gravity="center"
+                android:text="Apply Coupon Code"
+                android:textColor="#FDEFEAC8"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Delivery Charges"
+                android:textSize="18dp"
+                android:textColor="#FDEFEAC8"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="₹110"
+                android:textSize="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="45dp"
+                android:textColor="#FDEFEAC8"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Taxes"
+                android:textSize="18dp"
+                android:textColor="#FDEFEAC8"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="₹27"
+                android:textSize="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FDEFEAC8"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Grand Total"
+                android:textSize="20dp"
+                android:textColor="#FDEFEAC8"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="₹137"
+                android:textSize="30dp"
+                android:textColor="#FDEFEAC8"/>
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+           android:layout_marginLeft="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#FDEFEAC8">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="#EE200422"
+                android:text="Pay Now"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="25dp"/>
+
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
